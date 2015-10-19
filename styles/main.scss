@@ -1,0 +1,412 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "../bower_components/neat/app/assets/stylesheets/_neat.scss";
+
+body {
+  @include span-columns(12);
+  background-image: url(../assets/bg.jpg);
+  background-width: 100%;
+}
+
+.wrapper{
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+}
+
+
+main{
+  @include span-columns(8);
+  @include shift(2);
+}
+
+header {
+  @include span-columns(8);
+  @include shift(2);
+  .social{
+    @include span-columns(3.5);
+    @include shift(8.5);
+    height:60px;
+    text-align: center;
+    margin-bottom: 15px;
+    a{
+      @include span-columns(3);
+      display: block;
+      height: 60px;
+      border-bottom: #7E7A7A solid 3px;
+      text-decoration: none;
+      font-size: 36px;
+      padding-top: 10px;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+    .fbook{
+      background: #445897;
+      color: #7381AF;
+    }
+    .rss{
+      background: #CC8F32;
+      color: #D7AB63;
+    }
+    .twit{
+      background: #6A8DC7;
+      color: #90A8D4;
+    }
+    .youtube{
+      background: #B2382D;
+      color: #C26960;
+    }
+  }
+  .nav{
+    @include span-columns(12);
+    margin-bottom: 10px;
+    a{
+      @include span-columns(3);
+      text-align: center;
+      color: white;
+      font-size: 16px;
+      font-weight: lighter;
+      height: 45px;
+      text-decoration: none;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+      background-color: #B4292E;
+      padding-top: 10px;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+  }
+}
+
+.hero{
+  @include span-columns(12);
+  height: 360px;
+  background-image: url(../assets/top-image.png);
+  background-position: center;
+  border: 5px solid white;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 2px -2px gray;
+  z-index: 8;
+
+}
+
+.heroOverlay{
+  @include span-columns(12);
+  height: 355px;
+  background-image: url(../assets/grid.png);
+  position: relative;
+  z-index: 1;
+  padding: 50px 0 0 20px;
+  img{
+    position: absolute;
+    opacity: 1;
+  }
+}
+
+.posts{
+  @include span-columns(12);
+  margin-bottom: 25px;
+  .postArticle{
+    @include span-columns(4);
+    height:350px;
+    background: white;
+    box-shadow: 0 4px 2px -2px gray;
+    .post{
+      @include span-columns(12);
+      padding: 30px 25px 20px 25px;
+      margin: 0;
+      h2{
+        @include span-columns(12);
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+      h3{
+        font-size: 11px;
+      }
+      p{
+        font-size: 11px;
+        height: auto;
+        overflow: hidden;
+      }
+    }
+    a{
+      @include span-columns(10);
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.boarders{
+  @include span-columns(12);
+  margin-bottom: 25px;
+  text-align: center;
+    .boarderSection1{
+      @include span-columns(9);
+      height: 485;
+      .skater1{
+      @include span-columns(6);
+      height:235px;
+      color: white;
+      border: white solid 5px;
+      background-image: url(../assets/sk8er-4.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: right;
+      padding: 75px 5px 5px 5px;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+    .skater2{
+      @include span-columns(6);
+      height:235px;
+      color: white;
+      border: white solid 5px;
+      background-image: url(../assets/sk8er-3.png);
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 75px 5px 5px 5px;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+    .skater3{
+      @include span-columns(12);
+      height:235px;
+      color: white;
+      border: white solid 5px;
+      background-image: url(../assets/sk8er-1.png);
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+      padding: 75px 5px 5px 5px;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+  }
+  .skater4{
+    @include span-columns(3);
+    height:485px;
+    color: white;
+    border: white solid 5px;
+    background-image: url(../assets/sk8er-2.png);
+    background-position: right -130px top;
+    background-repeat: no-repeat;
+    padding: 200px 5px 5px 5px;
+    box-shadow: 0 4px 2px -2px gray;
+  }
+}
+
+.boards{
+  @include span-columns(12);
+  background-color: white;
+  margin-bottom: 25px;
+  .board{
+    @include span-columns(1.2);
+  }
+}
+
+.contact{
+  @include span-columns(12);
+  background-color: white;
+  margin-bottom: 95px;}
+  .contactInfo{
+    @include span-columns(6);
+    padding: 35px 0 0 40px;
+    h3{
+      margin: 0;
+    }
+    .contactSocial{
+      @include span-columns(12);
+    }
+    a{
+      @include span-columns(1.5);
+      height: 30px;
+      padding-top: 5px;
+      text-decoration: none;
+      text-align: center;
+
+      &.fbook{
+        background: #4F4F4F;
+        color: #7A7A7A;
+      }
+      &.rss{
+        background: #ADADAD;
+        color: #C2C2C2
+      }
+      &.twit{
+        background: #7B7B7B;
+        color: #9D9D9D;
+      }
+      &.youtube{
+        background: #757575;
+        color: #959595;
+      }
+    }
+  }
+  .contactInput{
+    @include span-columns(6);
+    padding: 35px 40px 0 0;
+    input{
+      width: 100%;
+      margin-bottom: 10px;
+      &.submit{
+        @include span-columns(5);
+        @include shift(7);
+      }
+    }
+    textarea{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+
+// .asideBar{
+//   @include span-columns(2);
+//   @include shift(2);
+//   background: #B4292E;
+//   position: absolute;
+//   top:950px;
+//   height: 95px;
+//   color: white;
+//   text-align: center;
+//   padding-top:40px;
+//   &::after{
+//     @include span-columns(1);
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 180px;
+//     border: 47.5px solid transparent;
+//     border-left: 25px solid #B4292E;
+//   }
+// }
+
+@media(max-width:1180px) {
+
+  header {
+    @include span-columns(9);
+    @include shift(1.5);
+  }
+  main{
+    @include span-columns(11);
+    @include shift(.5);
+  }
+}
+
+@media(max-width:880px) {
+
+    header{
+      @include span-columns(12);
+      @include shift(0);
+      .social{
+        @include span-columns(4);
+        @include shift(4);
+      }
+    }
+
+    .posts{
+      @include span-columns(9);
+      @include shift(1.5);
+      .postArticle{
+        @include span-columns(12);
+        height: 250px;
+        // border: 5px solid #B4292E;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 20px 10px 10px 10px;
+
+        .post{
+          padding: 0;
+          text-align: center;
+          p{
+            height: auto;
+          }
+          a{
+            text-align: center;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+
+    .boarders{
+      @include span-columns(8);
+      @include shift(2);
+      font-size: 12px;
+      .boarderSection1{
+        @include span-columns(12);
+      .skater1{
+        @include span-columns(12);
+      }
+      .skater2{
+        @include span-columns(12);
+      }
+      .skater3{
+        @include span-columns(12);
+        margin-top: 0;
+      }
+      }
+      .skater4{
+        @include span-columns(12);
+        height: 235px;
+        padding-top: 75px;
+
+    }
+  }
+    .boards{
+      @include span-columns(10);
+      @include shift(1);
+      .board{
+        @include span-columns(1.2);
+      }
+    }
+}
+
+@media (max-width:600px) {
+    header{
+      .social{
+        @include span-columns(10);
+        @include shift(1);
+      }
+      .nav{
+        @include span-columns(12);
+        @include shift(1);
+        a{
+          @include span-columns(5);
+        }
+      }
+    }
+    .hero{
+      background-image: none;
+      background-color: black;
+      .heroOverlay{
+        @include span-columns(12);
+        img{
+          @include span-columns(10);
+          @include shift(.5);
+        }
+      }
+    }
+      .contact{
+        @include span-columns(12);
+        text-align: center;
+      .contactInfo{
+        padding: 20px;
+        @include span-columns(12);
+      }
+      .contactSocial{
+        @include span-columns(12);
+        @include shift(4);
+        margin-bottom: 15px;
+        a{
+          @include span-columns(1);
+        }
+      }
+      .contactInput{
+        @include span-columns(8);
+        @include shift(2);
+        padding:0;
+        .submit{
+          @include shift(4);
+        }
+      }
+    }
+}

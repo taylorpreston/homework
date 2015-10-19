@@ -1,0 +1,570 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-image: url(../assets/bg.jpg);
+  background-width: 100%; }
+  body:last-child {
+    margin-right: 0; }
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute; }
+
+main {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%; }
+  main:last-child {
+    margin-right: 0; }
+
+header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%; }
+  header:last-child {
+    margin-right: 0; }
+  header .social {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 27.49666%;
+    margin-left: 72.50334%;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 15px; }
+    header .social:last-child {
+      margin-right: 0; }
+    header .social a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      display: block;
+      height: 60px;
+      border-bottom: #7E7A7A solid 3px;
+      text-decoration: none;
+      font-size: 36px;
+      padding-top: 10px;
+      box-shadow: 0 4px 2px -2px gray; }
+      header .social a:last-child {
+        margin-right: 0; }
+    header .social .fbook {
+      background: #445897;
+      color: #7381AF; }
+    header .social .rss {
+      background: #CC8F32;
+      color: #D7AB63; }
+    header .social .twit {
+      background: #6A8DC7;
+      color: #90A8D4; }
+    header .social .youtube {
+      background: #B2382D;
+      color: #C26960; }
+  header .nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-bottom: 10px; }
+    header .nav:last-child {
+      margin-right: 0; }
+    header .nav a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      text-align: center;
+      color: white;
+      font-size: 16px;
+      font-weight: lighter;
+      height: 45px;
+      text-decoration: none;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+      background-color: #B4292E;
+      padding-top: 10px;
+      box-shadow: 0 4px 2px -2px gray; }
+      header .nav a:last-child {
+        margin-right: 0; }
+
+.hero {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 360px;
+  background-image: url(../assets/top-image.png);
+  background-position: center;
+  border: 5px solid white;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 2px -2px gray;
+  z-index: 8; }
+  .hero:last-child {
+    margin-right: 0; }
+
+.heroOverlay {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 355px;
+  background-image: url(../assets/grid.png);
+  position: relative;
+  z-index: 1;
+  padding: 50px 0 0 20px; }
+  .heroOverlay:last-child {
+    margin-right: 0; }
+  .heroOverlay img {
+    position: absolute;
+    opacity: 1; }
+
+.posts {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-bottom: 25px; }
+  .posts:last-child {
+    margin-right: 0; }
+  .posts .postArticle {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    height: 350px;
+    background: white;
+    box-shadow: 0 4px 2px -2px gray; }
+    .posts .postArticle:last-child {
+      margin-right: 0; }
+    .posts .postArticle .post {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      padding: 30px 25px 20px 25px;
+      margin: 0; }
+      .posts .postArticle .post:last-child {
+        margin-right: 0; }
+      .posts .postArticle .post h2 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 20px; }
+        .posts .postArticle .post h2:last-child {
+          margin-right: 0; }
+      .posts .postArticle .post h3 {
+        font-size: 11px; }
+      .posts .postArticle .post p {
+        font-size: 11px;
+        height: auto;
+        overflow: hidden; }
+    .posts .postArticle a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      display: block;
+      text-align: center; }
+      .posts .postArticle a:last-child {
+        margin-right: 0; }
+
+.boarders {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-bottom: 25px;
+  text-align: center; }
+  .boarders:last-child {
+    margin-right: 0; }
+  .boarders .boarderSection1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    height: 485; }
+    .boarders .boarderSection1:last-child {
+      margin-right: 0; }
+    .boarders .boarderSection1 .skater1 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      height: 235px;
+      color: white;
+      border: white solid 5px;
+      background-image: url(../assets/sk8er-4.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: right;
+      padding: 75px 5px 5px 5px;
+      box-shadow: 0 4px 2px -2px gray; }
+      .boarders .boarderSection1 .skater1:last-child {
+        margin-right: 0; }
+    .boarders .boarderSection1 .skater2 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      height: 235px;
+      color: white;
+      border: white solid 5px;
+      background-image: url(../assets/sk8er-3.png);
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 75px 5px 5px 5px;
+      box-shadow: 0 4px 2px -2px gray; }
+      .boarders .boarderSection1 .skater2:last-child {
+        margin-right: 0; }
+    .boarders .boarderSection1 .skater3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      height: 235px;
+      color: white;
+      border: white solid 5px;
+      background-image: url(../assets/sk8er-1.png);
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+      padding: 75px 5px 5px 5px;
+      box-shadow: 0 4px 2px -2px gray; }
+      .boarders .boarderSection1 .skater3:last-child {
+        margin-right: 0; }
+  .boarders .skater4 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    height: 485px;
+    color: white;
+    border: white solid 5px;
+    background-image: url(../assets/sk8er-2.png);
+    background-position: right -130px top;
+    background-repeat: no-repeat;
+    padding: 200px 5px 5px 5px;
+    box-shadow: 0 4px 2px -2px gray; }
+    .boarders .skater4:last-child {
+      margin-right: 0; }
+
+.boards {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 25px; }
+  .boards:last-child {
+    margin-right: 0; }
+  .boards .board {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 7.87811%; }
+    .boards .board:last-child {
+      margin-right: 0; }
+
+.contact {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 95px; }
+  .contact:last-child {
+    margin-right: 0; }
+
+.contactInfo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding: 35px 0 0 40px; }
+  .contactInfo:last-child {
+    margin-right: 0; }
+  .contactInfo h3 {
+    margin: 0; }
+  .contactInfo .contactSocial {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .contactInfo .contactSocial:last-child {
+      margin-right: 0; }
+  .contactInfo a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 10.43705%;
+    height: 30px;
+    padding-top: 5px;
+    text-decoration: none;
+    text-align: center; }
+    .contactInfo a:last-child {
+      margin-right: 0; }
+    .contactInfo a.fbook {
+      background: #4F4F4F;
+      color: #7A7A7A; }
+    .contactInfo a.rss {
+      background: #ADADAD;
+      color: #C2C2C2; }
+    .contactInfo a.twit {
+      background: #7B7B7B;
+      color: #9D9D9D; }
+    .contactInfo a.youtube {
+      background: #757575;
+      color: #959595; }
+
+.contactInput {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding: 35px 40px 0 0; }
+  .contactInput:last-child {
+    margin-right: 0; }
+  .contactInput input {
+    width: 100%;
+    margin-bottom: 10px; }
+    .contactInput input.submit {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 59.70863%; }
+      .contactInput input.submit:last-child {
+        margin-right: 0; }
+  .contactInput textarea {
+    width: 100%;
+    margin-bottom: 10px; }
+
+@media (max-width: 1180px) {
+  header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 12.79471%; }
+    header:last-child {
+      margin-right: 0; }
+  main {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    main:last-child {
+      margin-right: 0; } }
+
+@media (max-width: 880px) {
+  header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-left: 0%; }
+    header:last-child {
+      margin-right: 0; }
+    header .social {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-left: 34.11922%; }
+      header .social:last-child {
+        margin-right: 0; }
+  .posts {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 12.79471%; }
+    .posts:last-child {
+      margin-right: 0; }
+    .posts .postArticle {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      height: 250px;
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 20px 10px 10px 10px; }
+      .posts .postArticle:last-child {
+        margin-right: 0; }
+      .posts .postArticle .post {
+        padding: 0;
+        text-align: center; }
+        .posts .postArticle .post p {
+          height: auto; }
+        .posts .postArticle .post a {
+          text-align: center;
+          margin: 0 auto; }
+  .boarders {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    font-size: 12px; }
+    .boarders:last-child {
+      margin-right: 0; }
+    .boarders .boarderSection1 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .boarders .boarderSection1:last-child {
+        margin-right: 0; }
+      .boarders .boarderSection1 .skater1 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .boarders .boarderSection1 .skater1:last-child {
+          margin-right: 0; }
+      .boarders .boarderSection1 .skater2 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .boarders .boarderSection1 .skater2:last-child {
+          margin-right: 0; }
+      .boarders .boarderSection1 .skater3 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-top: 0; }
+        .boarders .boarderSection1 .skater3:last-child {
+          margin-right: 0; }
+    .boarders .skater4 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      height: 235px;
+      padding-top: 75px; }
+      .boarders .skater4:last-child {
+        margin-right: 0; }
+  .boards {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    .boards:last-child {
+      margin-right: 0; }
+    .boards .board {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 7.87811%; }
+      .boards .board:last-child {
+        margin-right: 0; } }
+
+@media (max-width: 600px) {
+  header .social {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    header .social:last-child {
+      margin-right: 0; }
+  header .nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-left: 8.5298%; }
+    header .nav:last-child {
+      margin-right: 0; }
+    header .nav a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      header .nav a:last-child {
+        margin-right: 0; }
+  .hero {
+    background-image: none;
+    background-color: black; }
+    .hero .heroOverlay {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .hero .heroOverlay:last-child {
+        margin-right: 0; }
+      .hero .heroOverlay img {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%;
+        margin-left: 4.2649%; }
+        .hero .heroOverlay img:last-child {
+          margin-right: 0; }
+  .contact {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center; }
+    .contact:last-child {
+      margin-right: 0; }
+    .contact .contactInfo {
+      padding: 20px;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .contact .contactInfo:last-child {
+        margin-right: 0; }
+    .contact .contactSocial {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 34.11922%;
+      margin-bottom: 15px; }
+      .contact .contactSocial:last-child {
+        margin-right: 0; }
+      .contact .contactSocial a {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 6.17215%; }
+        .contact .contactSocial a:last-child {
+          margin-right: 0; }
+    .contact .contactInput {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%;
+      padding: 0; }
+      .contact .contactInput:last-child {
+        margin-right: 0; }
+      .contact .contactInput .submit {
+        margin-left: 34.11922%; } }
