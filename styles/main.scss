@@ -137,6 +137,7 @@ header {
   @include span-columns(12);
   margin-bottom: 25px;
   text-align: center;
+  overflow: hidden;
     .boarderSection1{
       @include span-columns(9);
       height: 485;
@@ -151,6 +152,11 @@ header {
       background-position: right;
       padding: 75px 5px 5px 5px;
       box-shadow: 0 4px 2px -2px gray;
+      transition-duration: 2s;
+      &:hover{
+    opacity: 0.5;
+    transform: rotate(180deg);
+  }
     }
     .skater2{
       @include span-columns(6);
@@ -164,6 +170,11 @@ header {
       margin: 0;
       padding: 75px 5px 5px 5px;
       box-shadow: 0 4px 2px -2px gray;
+      transition-duration: 2s;
+      &:hover{
+    opacity: 0.5;
+    transform: rotate(180deg);
+}
     }
     .skater3{
       @include span-columns(12);
@@ -177,6 +188,11 @@ header {
       margin-top: 15px;
       padding: 75px 5px 5px 5px;
       box-shadow: 0 4px 2px -2px gray;
+      transition-duration: 2s;
+      &:hover{
+    opacity: 0.5;
+    transform: rotate(180deg);
+}
     }
   }
   .skater4{
@@ -189,7 +205,16 @@ header {
     background-repeat: no-repeat;
     padding: 200px 5px 5px 5px;
     box-shadow: 0 4px 2px -2px gray;
+    transition-duration: 2s;
+        &:hover{
+      opacity: 0.5;
+      transform: rotate(180deg);
+
+
+    }
   }
+
+
 }
 
 .boards{
@@ -255,6 +280,10 @@ header {
       margin-bottom: 10px;
     }
   }
+
+
+
+
 
 
 // .asideBar{
@@ -409,4 +438,25 @@ header {
         }
       }
     }
+}
+
+@media (max-width:480px) {
+
+  .hero{
+    height: 200px;
+    .heroOverlay{
+      @include span-columns(12);
+      padding: 25px 0 0 0;
+      height: 190px;
+      img{
+        @include span-columns(8);
+        @include shift(2);
+      }
+    }
+  }
+
+  .posts{
+    @include span-columns(11);
+    @include shift(.5);
+  }
 }

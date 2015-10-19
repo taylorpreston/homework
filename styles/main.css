@@ -190,7 +190,8 @@ header {
   margin-right: 2.35765%;
   width: 100%;
   margin-bottom: 25px;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   .boarders:last-child {
     margin-right: 0; }
   .boarders .boarderSection1 {
@@ -214,9 +215,13 @@ header {
       background-repeat: no-repeat;
       background-position: right;
       padding: 75px 5px 5px 5px;
-      box-shadow: 0 4px 2px -2px gray; }
+      box-shadow: 0 4px 2px -2px gray;
+      transition-duration: 2s; }
       .boarders .boarderSection1 .skater1:last-child {
         margin-right: 0; }
+      .boarders .boarderSection1 .skater1:hover {
+        opacity: 0.5;
+        transform: rotate(180deg); }
     .boarders .boarderSection1 .skater2 {
       float: left;
       display: block;
@@ -231,9 +236,13 @@ header {
       background-repeat: no-repeat;
       margin: 0;
       padding: 75px 5px 5px 5px;
-      box-shadow: 0 4px 2px -2px gray; }
+      box-shadow: 0 4px 2px -2px gray;
+      transition-duration: 2s; }
       .boarders .boarderSection1 .skater2:last-child {
         margin-right: 0; }
+      .boarders .boarderSection1 .skater2:hover {
+        opacity: 0.5;
+        transform: rotate(180deg); }
     .boarders .boarderSection1 .skater3 {
       float: left;
       display: block;
@@ -248,9 +257,13 @@ header {
       background-repeat: no-repeat;
       margin-top: 15px;
       padding: 75px 5px 5px 5px;
-      box-shadow: 0 4px 2px -2px gray; }
+      box-shadow: 0 4px 2px -2px gray;
+      transition-duration: 2s; }
       .boarders .boarderSection1 .skater3:last-child {
         margin-right: 0; }
+      .boarders .boarderSection1 .skater3:hover {
+        opacity: 0.5;
+        transform: rotate(180deg); }
   .boarders .skater4 {
     float: left;
     display: block;
@@ -263,9 +276,13 @@ header {
     background-position: right -130px top;
     background-repeat: no-repeat;
     padding: 200px 5px 5px 5px;
-    box-shadow: 0 4px 2px -2px gray; }
+    box-shadow: 0 4px 2px -2px gray;
+    transition-duration: 2s; }
     .boarders .skater4:last-child {
       margin-right: 0; }
+    .boarders .skater4:hover {
+      opacity: 0.5;
+      transform: rotate(180deg); }
 
 .boards {
   float: left;
@@ -568,3 +585,32 @@ header {
         margin-right: 0; }
       .contact .contactInput .submit {
         margin-left: 34.11922%; } }
+
+@media (max-width: 480px) {
+  .hero {
+    height: 200px; }
+    .hero .heroOverlay {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      padding: 25px 0 0 0;
+      height: 190px; }
+      .hero .heroOverlay:last-child {
+        margin-right: 0; }
+      .hero .heroOverlay img {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%;
+        margin-left: 17.05961%; }
+        .hero .heroOverlay img:last-child {
+          margin-right: 0; }
+  .posts {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    .posts:last-child {
+      margin-right: 0; } }
